@@ -14,7 +14,7 @@ require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/custommethoddb",
+  process.env.MONGODB_URI || "mongodb://localhost/workoutdb",
   { useNewUrlParser: true }
 );
 
